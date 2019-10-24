@@ -3,7 +3,7 @@ function offlineHosts (){
   , JSONStream = require('JSONStream')
   , es = require('event-stream')
   const webhook = require("webhook-discord")
-  const Hook = new webhook.Webhook("https://discordapp.com/api/webhooks/622875928653070356/g1farYRLfX6HGCFxHzwUQWAVi_pQIG_xZqnPorfKPrJiSpEpZkW1Scum2tArcJos75nZ")
+  const Hook = new webhook.Webhook("YourWebHookURL")
   var siaPrimeRequest = request.defaults({
     headers: {'User-Agent': 'SiaPrime-Agent'}
   })
